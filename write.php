@@ -3,7 +3,7 @@
 	
 	if ($text1 != "")
 	{
-		$file = fopen ("Assets\Scripts\file_1.txt", "a");
+		$file = fopen ("file_1.txt", "a");
 		fwrite ($file, $text1);
 		fclose($file);
 	}
